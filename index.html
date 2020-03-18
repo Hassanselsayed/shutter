@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Shutter</title>
+
+    <!-- linking the HTML sheet with the font awesome kit used -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/5356eff725.js" crossorigin="anonymous"></script> -->
+
+    <!-- linking the HTML sheet with the google fonts used -->
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:700&display=swap"
+        rel="stylesheet">
+
+    <!-- linking the HTML sheet with the external CSS sheet used -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- header section -->
+    <header id="home">
+        <!-- header wrapper -->
+        <div class="wrapper clearfix">
+            <h2 class="logo">Shutter</h2>
+
+            <!-- burger menu for mobile design -->
+            <button class="hamburger"><i class="fas fa-bars"></i>
+                <p class="sr-only">Click here to open up hamburger menu</p>
+            </button>
+
+            <!-- top nav -->
+            <nav class="top-nav clearfix">
+                <div class="full-screen">
+                    <button class="exit-responsive">
+                        <i class="fas fa-times"></i>
+                        <p class="sr-only">Click me to close the navigation.</p>
+                    </button>
+
+                    <!-- top nav list -->
+                    <ul>
+                        <li><a href="#home" class="home-b">home</a></li>
+                        <li><a href="#about" class="about-b">about</a></li>
+                        <li><a href="#blog" class="blog-b">blog</a></li>
+                        <li><a href="#contact" class="contact-b">contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- start of the right section of the header -->
+            <aside class="social-links">
+                <!-- social links list -->
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i aria-hidden="true" class="fab fa-facebook-f"></i>
+                            <span class="sr-only">facebook's logo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i aria-hidden="true" class="fab fa-instagram"></i>
+                            <span class="sr-only">instagram's logo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i aria-hidden="true" class="fab fa-linkedin-in"></i>
+                            <span class="sr-only">linkedin's logo</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i aria-hidden="true" class="fab fa-twitter"></i>
+                            <span class="sr-only">twitter's logo</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </aside>
+            <h1>welcome to <span>Shutter</span></h1>
+        </div>
+    </header>
+
+    <!-- main section of the website -->
+    <main>
+        <!-- about section -->
+        <section id="about" class="about">
+            <h2>About Shutter</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima facilis tempora officia qui expedita
+                optio cum a quaerat nam laborum molestias animi, possimus magnam veritatis? Perspiciatis vel quasi hic
+                eaque quas quam neque quia dolorem qui.</p>
+            <button>find out more</button>
+        </section>
+
+        <!-- blog section -->
+        <section id="blog" class="blog">
+            <!-- blog - gallery -->
+            <div class="gallery clearfix wrapper" id="gallery">
+                <img src="shutter-assets/asset-2.jpg"
+                    alt="two palm trees soaring high into a background of heavy clouds during sunset">
+                <img src="shutter-assets/asset-3.jpg"
+                    alt="a hand holding an open glass jar containing an illuminating led wire with blurred city lights in the background">
+                <img src="shutter-assets/asset-4.jpg"
+                    alt="vehicles line up behind a traffic light in between skyskrapers in Chicago">
+            </div>
+            <!-- blog - header -->
+            <div class="blog-header">
+                <div class="list-container">
+                    <ul class="clearfix">
+                        <li class="icon">
+                            <a href="#gallery" class="blogLinks">
+                                <i aria-hidden="true" class="fas fa-images"></i>
+                                <span>Gallery</span>
+                            </a>
+                        </li>
+                        <li class="icon">
+                            <a href="#behind-lens">
+                                <i aria-hidden="true" class="fas fa-camera"></i>
+                                <span>Photo Tips</span>
+                            </a>
+                        </li>
+                        <li class="icon">
+                            <a href="#about">
+                                <i aria-hidden="true" class="fas fa-image"></i>
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="icon">
+                            <a href="#contact">
+                                <i aria-hidden="true" class="fas fa-envelope"></i>
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- blog - behind lens -->
+            <div class="behind-lens wrapper clearfix" id="behind-lens">
+                <img src="shutter-assets/asset-6.jpg" alt="a photographer capturing a shot while smiling">
+                <!-- blog - first subcluster -->
+                <div class="first-subcluster">
+                    <h2>Behind the Lens</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perferendis error eos reiciendis!
+                        Fugiat nesciunt corrupti atque necessitatibus delectus architecto asperiores placeat unde
+                        eveniet, magni doloremque quisquam eaque reprehenderit est voluptatem distinctio quam molestias
+                        neque illo natus itaque? Eligendi repellat consequatur molestias excepturi, tenetur vitae saepe
+                        aut. Magni deserunt doloremque ea. Esse modi corporis fuga nostrum optio odit voluptate. Harum
+                        animi qui recusandae molestias iure soluta sapiente adipisci perferendis aliquam? Iure error
+                        voluptate, laudantium atque reprehenderit nobis rem sint officiis labore!</p>
+                    <div class="button-container">
+                        <button>find out more</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- blog - nature -->
+            <div class="nature clearfix">
+                <!-- blog - second subcluster -->
+                <div class="second-subcluster clearfix hide-later">
+                    <div class="subcluster-2-container clearfix">
+                        <h3>Nature & Scenery</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, iusto labore esse laborum ad
+                            in.</p>
+                        <div>
+                            <button>read more</button>
+                        </div>
+                    </div>
+                </div>
+                <img src="shutter-assets/asset-7.jpg" alt="a small rocky hill in the middle of open sea on a foggy day">
+                <div class="second-subcluster hide">
+                    <div class="subcluster-2-container clearfix">
+                        <h3>Nature & Scenery</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, iusto labore esse laborum ad
+                            in.</p>
+                        <div>
+                            <button>read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- blog - candid -->
+            <div class="candid clearfix">
+                <img src="shutter-assets/asset-8.jpg"
+                    alt="a person standing on the beach gazing onto the water with a hand holding their jacket and the other hand in their back pockets">
+                    <!-- blog - third subcluster -->
+                <div class="third-subcluster clearfix">
+                    <div class="subcluster-3-container clearfix">
+                        <h3>Candid Photography</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis, iusto labore esse
+                            laborum ad in.</p>
+                        <div>
+                            <button>read more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer section -->
+    <footer id="contact">
+        <!-- footer wrapper -->
+        <div class="wrapper clearfix">
+            <!-- form for mobile design -->
+            <form action="" class="clearfix hide">
+                <h4>stay updated</h4>
+                <p>Subscribe to our newsletter to stay updated.</p>
+                <input type="email" placeholder="email address">
+                <input type="submit" value="subscribe">
+            </form>
+
+            <!-- contact section -->
+            <address>
+                <h4>contact</h4>
+                <p>info@email.com</p>
+                <p>123-456-7890</p>
+                <p>123 some road, <span>Toronto, ON</span></p>
+            </address>
+
+            <!-- original form -->
+            <form action="" class="clearfix hide-later">
+                <h4>stay updated</h4>
+                <p>Subscribe to our newsletter to stay updated.</p>
+                <input type="email" placeholder="email address">
+                <input type="submit" value="subscribe">
+            </form>
+
+            <!-- footer nav -->
+            <nav class="bottom-nav">
+                <h4>pages</h4>
+                <ul>
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#blog">blog</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <!-- footer copyright -->
+        <div class="footer-copyright">
+            <p>Copyright <span>&#169;</span> 2018 HackerYou</p>
+        </div>
+    </footer>
+    
+    <!-- Load in jQuery -->
+    <script src='https://code.jquery.com/jquery-3.4.0.min.js'
+        integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+    <script>
+        $(function () {
+            $('.hamburger').on('click', function () {
+                // toggle class show on the menu
+                $('.top-nav').addClass('show');
+            });
+
+            $('.exit-responsive').on('click', function () {
+                // toggle class show on the menu
+                $('.top-nav').removeClass('show');
+            });
+            $('.home-b').on('click', function () {
+                // toggle class show on the menu
+                $('.top-nav').removeClass('show');
+            });
+            $('.about-b').on('click', function () {
+                // toggle class show on the menu
+                $('.top-nav').removeClass('show');
+            });
+            $('.blog-b').on('click', function () {
+                // toggle class show on the menu
+                $('.top-nav').removeClass('show');
+            });
+            $('.contact-b').on('click', function () {
+                // toggle class show on the menu
+                $('.top-nav').removeClass('show');
+            });
+        });
+    </script>
+</body>
+</html>
